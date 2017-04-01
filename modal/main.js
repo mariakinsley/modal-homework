@@ -9,6 +9,9 @@ function myModal(){
 // calling event listener
 modal.addEventListener("load",setTimeout(myModal, 3000))
 
+document.querySelector('form').addEventListener('submit', function(event){
+  event.preventDefault()
+})
 
 
 
